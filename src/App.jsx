@@ -6,13 +6,15 @@ function App() {
 
   return (
     <>
-      <Header></Header>
+      <header className="header"></header>
       <main className='Main'>
-      <Div class="About"></Div>
-      <Div class="Projects"></Div>
-      <Div class="Contact"></Div>
+      <div className='Background_color_div'>
+      <div className="Biography"></div>
+      <div className="Projects"></div>
+      <div className="Contact_Me"></div>
+      </div>
       </main>
-      <Footer class="Footer"></Footer>
+      <footer className="Footer"></footer>
     </>
   )
 }
