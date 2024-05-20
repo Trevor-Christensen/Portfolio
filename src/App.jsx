@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <Header className="Header"></Header>
+      <Header className={Header}></Header>
       <main className='Main'>
       <div className={Biography}></div>
       <div className={Skills}></div>

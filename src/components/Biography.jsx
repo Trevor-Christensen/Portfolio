@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './biography.scss'
+import '../styles/biography.scss'
 
 const shortBio = `
 What's up?! I'm Trevor, a passionate Star Wars nerd and Web Dev. I speacialize in React and JavaScrpit, and enjoy taking on new challenges. Lets Connect!
