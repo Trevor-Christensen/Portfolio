@@ -6,9 +6,8 @@ const Projects = () => {
     <section id="projects">
       <h2>Projects</h2>
       <ul>
-        <li><a href="https://example.com/project1">Project 1</a></li>
-        <li><a href="https://example.com/project2">Project 2</a></li>
-        <li><a href="https://example.com/project3">Project 3</a></li>
+        <li><a href="https://bandsitetc.netlify.app">BandSite</a></li>
+        <li><a href="https://example.com/project2">GameZ</a></li>
       </ul>
     </section>
   );

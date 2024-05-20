@@ -23,7 +23,7 @@ Since then, I've had the opportunity to work on various projects that have honed
 When I'm not coding, you can find me reading, gaming, or exploring the latest fan fictions about popular Manga's. It's an honor to have you read this, and if your a developer yourself, lets chat!
 `;
 
-function About() {
+function Biography() {
   const [bioType, setBioType] = useState('short');
 
   const handleBioChange = (type) => {

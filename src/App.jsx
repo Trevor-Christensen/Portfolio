@@ -11,11 +11,11 @@ function App() {
 
   return (
     <>
-      <Header className={Header}></Header>
+      <Header className='header-nav'>{Header}</Header>
       <main className='Main'>
-      <div className={Biography}></div>
-      <div className={Skills}></div>
-      <div className={Projects}></div>
+      <div className='About'>{Biography}</div>
+      <div className='Skills'>{Skills}</div>
+      <div className='Projects'>{Projects}</div>
       </main>
       <footer className="Footer"></footer>
     </>
