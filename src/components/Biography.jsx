@@ -50,9 +50,9 @@ function Biography() {
       <div className="about-content">
         <h2>About Me</h2>
         <div className="bio-options">
-          <button onClick={() => handleBioChange('short')}>Short Bio</button>
-          <button onClick={() => handleBioChange('medium')}>Medium Bio</button>
-          <button onClick={() => handleBioChange('long')}>Long Bio</button>
+          <button className='biosection__button' onClick={() => handleBioChange('short')}>Short Bio</button>
+          <button className='biosection__button' onClick={() => handleBioChange('medium')}>Medium Bio</button>
+          <button className='biosection__button'onClick={() => handleBioChange('long')}>Long Bio</button>
         </div>
         <p>{bioContent}</p>
       </div>
